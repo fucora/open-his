@@ -84,9 +84,10 @@ public class MenuController {
     /**
      * 根据角色ID查询菜单权限ID数据
      */
-//    @GetMapping("/getMenuIdsByRoleId/{roleId}")
-//    public AjaxResult getMenuIdsByRoleId(@PathVariable Long roleId) {
-//        List<Long> ids = this.menuService.getMenusIdsByRoleId(roleId);
-//        return AjaxResult.success(ids);
-//    }
+    @GetMapping("/getMenuIdsByRoleId/{roleId}")
+    public AjaxResult getMenuIdsByRoleId(@PathVariable Long roleId) {
+        List<Long> ids = this.menuService.getMenusIdsByRoleId(roleId);
+        return AjaxResult.success(ids);
+    }
+
 }

@@ -67,6 +67,6 @@ public interface MenuService {
      * @param roleId
      * @return
      */
-//    List<Long> getMenusIdsByRoleId(Long roleId);
+    List<Long> getMenusIdsByRoleId(Long roleId);
 
 }

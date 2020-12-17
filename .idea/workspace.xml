@@ -10,20 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/27ec171b-c5c6-48fa-9b4e-8e68b2cb63b5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/27ec171b-c5c6-48fa-9b4e-8e68b2cb63b5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第二次提交">
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-api/target/classes/com/example/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-api/target/classes/com/example/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/target/classes/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/OperLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/OperLogController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +60,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1lUgM6wkAh3rH3n5PqmgpMkRkh5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -74,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,8 +94,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto" />
       <recent name="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system" />
+      <recent name="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto" />
       <recent name="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example" />
       <recent name="$PROJECT_DIR$/his-commons/src/main/java/com/example" />
       <recent name="$PROJECT_DIR$/his-commons/src/main/java/com/example/vo" />
@@ -175,7 +179,9 @@
       <workItem from="1607925908191" duration="3945000" />
       <workItem from="1607995919491" duration="3547000" />
       <workItem from="1608077793415" duration="2809000" />
-      <workItem from="1608105869417" duration="2636000" />
+      <workItem from="1608105869417" duration="3019000" />
+      <workItem from="1608112539293" duration="749000" />
+      <workItem from="1608167070118" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1608106546476</created>
@@ -198,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608108274146</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第二次提交">
+      <created>1608108720406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608108720406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,11 +257,13 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第二次提交" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="28" key="#Project_Structure" timestamp="1607926366929">
@@ -267,54 +282,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="434" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1607735356327" />
-    <state width="1398" height="597" key="GridCell.Tab.0.bottom" timestamp="1608108189528">
+    <state width="1398" height="597" key="GridCell.Tab.0.bottom" timestamp="1608170422071">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608108189528" />
-    <state width="1398" height="597" key="GridCell.Tab.0.center" timestamp="1608108189526">
+    <state width="1398" height="597" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608170422071" />
+    <state width="1398" height="597" key="GridCell.Tab.0.center" timestamp="1608170422069">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608108189526" />
-    <state width="1398" height="597" key="GridCell.Tab.0.left" timestamp="1608108189525">
+    <state width="1398" height="597" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608170422069" />
+    <state width="1398" height="597" key="GridCell.Tab.0.left" timestamp="1608170422067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608108189525" />
-    <state width="1398" height="597" key="GridCell.Tab.0.right" timestamp="1608108189527">
+    <state width="1398" height="597" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608170422067" />
+    <state width="1398" height="597" key="GridCell.Tab.0.right" timestamp="1608170422070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608108189527" />
-    <state width="1398" height="597" key="GridCell.Tab.1.bottom" timestamp="1608108189532">
+    <state width="1398" height="597" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608170422070" />
+    <state width="1398" height="597" key="GridCell.Tab.1.bottom" timestamp="1608170422074">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608108189532" />
-    <state width="1398" height="597" key="GridCell.Tab.1.center" timestamp="1608108189531">
+    <state width="1398" height="597" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608170422074" />
+    <state width="1398" height="597" key="GridCell.Tab.1.center" timestamp="1608170422073">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608108189531" />
-    <state width="1398" height="597" key="GridCell.Tab.1.left" timestamp="1608108189530">
+    <state width="1398" height="597" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608170422073" />
+    <state width="1398" height="597" key="GridCell.Tab.1.left" timestamp="1608170422072">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608108189530" />
-    <state width="1398" height="597" key="GridCell.Tab.1.right" timestamp="1608108189532">
+    <state width="1398" height="597" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608170422072" />
+    <state width="1398" height="597" key="GridCell.Tab.1.right" timestamp="1608170422074">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="597" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608108189532" />
+    <state width="1398" height="597" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608170422074" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1608108580495">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608108580495" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608108293171">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608112594159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608108293171" />
-    <state x="406" y="242" key="git4idea.merge.GitPullDialog" timestamp="1608107392531">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608112594159" />
+    <state x="406" y="242" key="git4idea.merge.GitPullDialog" timestamp="1608113107193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="406" y="242" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1608107392531" />
-    <state x="384" y="345" width="697" height="207" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608108237078">
+    <state x="406" y="242" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1608113107193" />
+    <state x="384" y="345" width="697" height="207" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608167107601">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="384" y="345" width="697" height="207" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608108237078" />
+    <state x="384" y="345" width="697" height="207" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608167107601" />
     <state x="126" y="110" key="new project wizard" timestamp="1607662943120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
