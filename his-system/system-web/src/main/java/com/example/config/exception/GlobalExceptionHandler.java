@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: jianghao 
+ * Author jianghao
  * 全局异常处理
  */
 @RestControllerAdvice
@@ -23,8 +23,6 @@ public class GlobalExceptionHandler {
 
     /**
      * 当系统出现MethodArgumentNotValidException这个异常时，会调用下面的方法
-     * @param e
-     * @return
      */
     @ExceptionHandler(value = MethodArgumentNotValidException.class)//MethodArgumentNotValidException如果页面传参是json对象如果为空能触发
     public AjaxResult jsonErrorHandler(MethodArgumentNotValidException e){
@@ -33,8 +31,6 @@ public class GlobalExceptionHandler {
 
     /**
      * 当系统出现MethodArgumentNotValidException这个异常时，会调用下面的方法
-     * @param e
-     * @return
      */
     @ExceptionHandler(value = BindException.class)
     public AjaxResult jsonErrorHandler(BindException e){
@@ -43,8 +39,6 @@ public class GlobalExceptionHandler {
 
     /**
      * 抽像出来的方法
-     * @param bindingResult
-     * @return
      */
     private AjaxResult getAjaxResult(BindingResult bindingResult) {
         List<Map<String, Object>> list = new ArrayList<>();
