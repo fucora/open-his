@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author: jianghao
+ * @Author: jianghao 
  * 全局异常处理
  */
 @RestControllerAdvice
@@ -30,7 +30,6 @@ public class GlobalExceptionHandler {
     public AjaxResult jsonErrorHandler(MethodArgumentNotValidException e){
         return getAjaxResult(e.getBindingResult());
     }
-
 
     /**
      * 当系统出现MethodArgumentNotValidException这个异常时，会调用下面的方法
