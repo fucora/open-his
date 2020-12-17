@@ -19,7 +19,7 @@ import com.example.domain.Role;
 import com.example.service.RoleService;
 
 /**
- * @Author: jianghao
+ * Author jianghao
  */
 @Service
 public class RoleServiceImpl implements RoleService {
@@ -92,22 +92,22 @@ public class RoleServiceImpl implements RoleService {
         //根据角色ID先删除sys_role_menu里面原来的数据
         this.roleMapper.deleteRoleMenuByRoleIds(Arrays.asList(roleId));
         for (Long menuId : menuIds) {
-            this.roleMapper.saveRoleMenu(roleId,menuId);
+            this.roleMapper.saveRoleMenu(roleId, menuId);
         }
     }
-//
-//    @Override
-//    public List<Long> getRoleIdsByUserId(Long userId) {
-//        return this.roleMapper.selectRoleIdsByUserId(userId);
-//    }
-//
-//    @Override
-//    public void saveRoleUser(Long userId, Long[] roleIds) {
-//        //根据角色ID先删除sys_role_user里面原来的数据
-//        this.roleMapper.deleteRoleUserByUserIds(Arrays.asList(userId));
-//        for (Long roleId : roleIds) {
-//            this.roleMapper.saveRoleUser(userId,roleId);
-//        }
-//    }
+
+    @Override
+    public List<Long> getRoleIdsByUserId(Long userId) {
+        return this.roleMapper.selectRoleIdsByUserId(userId);
+    }
+
+    @Override
+    public void saveRoleUser(Long userId, Long[] roleIds) {
+        //根据角色ID先删除sys_role_user里面原来的数据
+        this.roleMapper.deleteRoleUserByUserIds(Arrays.asList(userId));
+        for (Long roleId : roleIds) {
+            this.roleMapper.saveRoleUser(userId, roleId);
+        }
+    }
 
 }
