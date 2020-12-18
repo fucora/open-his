@@ -10,57 +10,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第三次提交 完成系统管理-用户管理RBAC">
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/CheckItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/src/main/java/com/example/service/RegisteredItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/target/classes/com/example/service/CheckItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/target/classes/com/example/service/NoticeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-api/target/classes/com/example/service/RegisteredItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/domain/CheckItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/domain/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/domain/RegisteredItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto/CheckItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto/NoticeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto/RegisteredItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/domain/CheckItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/domain/Notice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/domain/RegisteredItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/dto/CheckItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/dto/NoticeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/dto/RegisteredItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/CheckItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/NoticeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/RegisteredItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/CheckItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/RegisteredItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/CheckItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/NoticeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/RegisteredItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/mapper/CheckItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/mapper/RegisteredItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/CheckItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/NoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/RegisteredItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/CheckItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/NoticeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/RegisteredItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/CheckItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/RegistredItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/system/CheckItemController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/system/NoticeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/system/RegistredItemController.class" afterDir="false" />
+    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第四次提交 完成系统管理全模块">
+      <change afterPath="$PROJECT_DIR$/his-commons/target/classes/com/example/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-api/src/main/java/com/example/service/ProducterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-api/target/classes/com/example/service/ProducterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-domain/src/main/java/com/example/domain/Producter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-domain/src/main/java/com/example/dto/ProducterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-domain/target/classes/com/example/domain/Producter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-domain/target/classes/com/example/dto/ProducterDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/java/com/example/mapper/ProducterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/resources/mapper/ProducterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/com/example/mapper/ProducterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/mapper/ProducterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/example/service/impl/ProducterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-erp/erp-service/target/classes/com/example/service/impl/ProducterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/erp/ProducterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/erp/ProducterController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/27ec171b-c5c6-48fa-9b4e-8e68b2cb63b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/27ec171b-c5c6-48fa-9b4e-8e68b2cb63b5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-commons/target/classes/com/example/utils/AppMd5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-commons/target/classes/com/example/utils/AppMd5Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-domain/target/classes/com/example/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/system/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/system/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/config/mybatisplus/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-commons/src/main/java/com/example/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/SystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/SystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/config/mybatisplus/MybatisPlusConfig.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,10 +99,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="com.ccnode.codegenerator.ab.e" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system" />
       <recent name="$PROJECT_DIR$/his-system/system-domain/src/main/java/com/example/dto" />
@@ -137,7 +114,7 @@
       <recent name="$PROJECT_DIR$/his-commons/src/main/java/com/example/vo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
+  <component name="RunManager" selected="Spring Boot.ErpApplication">
     <configuration name="DoctorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="doctor-service" />
       <extension name="coverage">
@@ -220,7 +197,9 @@
       <workItem from="1608167070118" duration="2729000" />
       <workItem from="1608171484407" duration="1181000" />
       <workItem from="1608199252210" duration="3681000" />
-      <workItem from="1608258921769" duration="2642000" />
+      <workItem from="1608258921769" duration="2862000" />
+      <workItem from="1608276785476" duration="305000" />
+      <workItem from="1608289676853" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1608106546476</created>
@@ -285,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608204527702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第四次提交 完成系统管理全模块">
+      <created>1608262734969</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608262734969</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,17 +327,18 @@
     <MESSAGE value="第三次提交 完成系统管理-角色管理 修改为LF  input" />
     <MESSAGE value="第三次提交 完成系统管理-角色管理 修改为LF" />
     <MESSAGE value="第三次提交 完成系统管理-用户管理RBAC" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次提交 完成系统管理-用户管理RBAC" />
+    <MESSAGE value="第四次提交 完成系统管理全模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次提交 完成系统管理全模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="28" key="#Project_Structure" timestamp="1607926366929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="28" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1607926366929" />
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607734940187">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608290473787">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607734940187" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1608290473787" />
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1607736443679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -360,54 +347,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="434" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1607735356327" />
-    <state width="1398" height="559" key="GridCell.Tab.0.bottom" timestamp="1608262659909">
+    <state width="1398" height="559" key="GridCell.Tab.0.bottom" timestamp="1608294774433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608262659909" />
+    <state width="1398" height="559" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608294774433" />
     <state width="1398" height="559" key="GridCell.Tab.0.bottom/0.25.1440.812@0.25.1440.812" timestamp="1608201752987" />
-    <state width="1398" height="559" key="GridCell.Tab.0.center" timestamp="1608262659905">
+    <state width="1398" height="559" key="GridCell.Tab.0.center" timestamp="1608294774430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608262659905" />
+    <state width="1398" height="559" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608294774430" />
     <state width="1398" height="559" key="GridCell.Tab.0.center/0.25.1440.812@0.25.1440.812" timestamp="1608201752986" />
-    <state width="1398" height="559" key="GridCell.Tab.0.left" timestamp="1608262659904">
+    <state width="1398" height="559" key="GridCell.Tab.0.left" timestamp="1608294774428">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608262659904" />
+    <state width="1398" height="559" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608294774428" />
     <state width="1398" height="559" key="GridCell.Tab.0.left/0.25.1440.812@0.25.1440.812" timestamp="1608201752985" />
-    <state width="1398" height="559" key="GridCell.Tab.0.right" timestamp="1608262659907">
+    <state width="1398" height="559" key="GridCell.Tab.0.right" timestamp="1608294774431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608262659907" />
+    <state width="1398" height="559" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608294774431" />
     <state width="1398" height="559" key="GridCell.Tab.0.right/0.25.1440.812@0.25.1440.812" timestamp="1608201752986" />
-    <state width="1398" height="559" key="GridCell.Tab.1.bottom" timestamp="1608262659913">
+    <state width="1398" height="559" key="GridCell.Tab.1.bottom" timestamp="1608294774435">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608262659913" />
+    <state width="1398" height="559" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608294774435" />
     <state width="1398" height="559" key="GridCell.Tab.1.bottom/0.25.1440.812@0.25.1440.812" timestamp="1608201752989" />
-    <state width="1398" height="559" key="GridCell.Tab.1.center" timestamp="1608262659911">
+    <state width="1398" height="559" key="GridCell.Tab.1.center" timestamp="1608294774434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608262659911" />
+    <state width="1398" height="559" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608294774434" />
     <state width="1398" height="559" key="GridCell.Tab.1.center/0.25.1440.812@0.25.1440.812" timestamp="1608201752988" />
-    <state width="1398" height="559" key="GridCell.Tab.1.left" timestamp="1608262659910">
+    <state width="1398" height="559" key="GridCell.Tab.1.left" timestamp="1608294774434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608262659910" />
+    <state width="1398" height="559" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608294774434" />
     <state width="1398" height="559" key="GridCell.Tab.1.left/0.25.1440.812@0.25.1440.812" timestamp="1608201752987" />
-    <state width="1398" height="559" key="GridCell.Tab.1.right" timestamp="1608262659912">
+    <state width="1398" height="559" key="GridCell.Tab.1.right" timestamp="1608294774435">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="559" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608262659912" />
+    <state width="1398" height="559" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608294774435" />
     <state width="1398" height="559" key="GridCell.Tab.1.right/0.25.1440.812@0.25.1440.812" timestamp="1608201752988" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1608172215754">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1608289796692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608172215754" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608204540511">
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608289796692" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608262785936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608204540511" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608262785936" />
     <state x="406" y="242" key="git4idea.merge.GitPullDialog" timestamp="1608172107369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

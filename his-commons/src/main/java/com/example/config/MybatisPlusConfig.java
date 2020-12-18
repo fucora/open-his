@@ -1,4 +1,4 @@
-package com.example.config.mybatisplus;
+package com.example.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.pagination.optimize.JsqlParserCountOptimize;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @Author: jianghao
+ * Author jianghao
  */
 @EnableTransactionManagement
 @Configuration
@@ -15,7 +15,6 @@ public class MybatisPlusConfig {
 
     /**
      * mybatisplus的分页插件
-     * @return
      */
     @Bean
     public PaginationInterceptor paginationInterceptor() {
