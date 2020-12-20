@@ -51,4 +51,9 @@ public interface UserService {
      */
     List<User> getAllUsers();
 
+    /**
+     * 查询要排班的医生信息
+     */
+    List<User> queryUsersNeedScheduling(Long userId, Long deptId);
+
 }

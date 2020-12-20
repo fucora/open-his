@@ -124,4 +124,14 @@ public class UserServiceImpl implements UserService {
         return this.userMapper.selectList(qw);
     }
 
+    @Override
+    public List<User> queryUsersNeedScheduling(Long userId, Long deptId) {
+        QueryWrapper<User> qw = new QueryWrapper<>();
+        qw.eq(deptId != null, User.COL_DEPT_ID, deptId);
+        qw.eq(userId != null, User.COL_USER_ID, userId);
+        qw.eq(User.COL_SCHEDULING_FLAG, Constants.SCHEDULING_FLAG_TRUE);//需要排班的
+        qw.eq(User.COL_STATUS, Constants.STATUS_TRUE);//可用的用户
+        return this.userMapper.selectList(qw);
+    }
+
 }
