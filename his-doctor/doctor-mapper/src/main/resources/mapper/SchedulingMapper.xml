@@ -14,7 +14,7 @@
   </resultMap>
   <sql id="Base_Column_List">
     <!--@mbg.generated-->
-    user_id, dept_id, scheduling_day, subsection_type, scheduling_type, create_time, 
+    user_id, dept_id, scheduling_day, subsection_type, scheduling_type, create_time,
     create_by
   </sql>
   <select id="queryHasSchedulingDeptIds" resultType="java.lang.Long">
@@ -27,10 +27,10 @@
             and scheduling_day=#{schedulingDay}
         </if>
         <if test="schedulingType != null">
-          and scheduling_type=#{schedulingType}
+            and scheduling_type=#{schedulingType}
         </if>
         <if test="subsectionType != null">
-          and subsection_type=#{subsectionType}
+            and subsection_type=#{subsectionType}
         </if>
     </where>
   </select>

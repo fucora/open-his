@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import com.example.domain.Dept;
@@ -19,9 +20,8 @@ import com.example.mapper.DeptMapper;
 import com.example.service.DeptService;
 
 /**
- * @Author: 尚学堂 雷哥
+ * Author jianghao
  */
-
 @Service
 public class DeptServiceImpl implements DeptService {
 
@@ -30,9 +30,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 分页查询
-     *
-     * @param deptDto
-     * @return
      */
     @Override
     public DataGridView listPage(DeptDto deptDto) {
@@ -49,8 +46,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 查询所有有效部门
-     *
-     * @return
      */
     @Override
     public List<Dept> list() {
@@ -62,9 +57,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 根据ID查询一个
-     *
-     * @param deptId
-     * @return
      */
     @Override
     public Dept getOne(Long deptId) {
@@ -73,9 +65,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 添加一个部门
-     *
-     * @param deptDto
-     * @return
      */
     @Override
     public int addDept(DeptDto deptDto) {
@@ -89,9 +78,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 修改部门
-     *
-     * @param deptDto
-     * @return
      */
     @Override
     public int updateDept(DeptDto deptDto) {
@@ -104,9 +90,6 @@ public class DeptServiceImpl implements DeptService {
 
     /**
      * 根据IDS删除部门
-     *
-     * @param deptIds
-     * @return
      */
     @Override
     public int deleteDeptByIds(Long[] deptIds) {
@@ -116,4 +99,23 @@ public class DeptServiceImpl implements DeptService {
         }
         return 0;
     }
+
+    @Override
+    public List<Dept> listDeptByDeptIds(List<Long> deptIds) {
+        if (deptIds != null && deptIds.size() > 0) {
+            QueryWrapper<Dept> qw = new QueryWrapper<>();
+            qw.in(Dept.COL_DEPT_ID, deptIds);
+            return this.deptMapper.selectList(qw);
+        }
+        return Collections.EMPTY_LIST;
+    }
+
+    @Override
+    public void updateDeptRegNumber(Long deptId, int i) {
+        Dept dept = new Dept();
+        dept.setDeptId(deptId);
+        dept.setRegNumber(i);
+        this.deptMapper.updateById(dept);
+    }
+
 }
