@@ -4,21 +4,17 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.constants.Constants;
-import com.example.domain.CareHistory;
-import com.example.domain.CareOrder;
-import com.example.domain.CareOrderItem;
-import com.example.domain.Registration;
+import com.example.domain.*;
 import com.example.dto.CareHistoryDto;
 import com.example.dto.CareOrderDto;
 import com.example.dto.CareOrderFormDto;
 import com.example.dto.CareOrderItemDto;
-import com.example.mapper.CareHistoryMapper;
-import com.example.mapper.CareOrderItemMapper;
-import com.example.mapper.CareOrderMapper;
-import com.example.mapper.RegistrationMapper;
+import com.example.mapper.*;
 import com.example.service.CareService;
+import com.example.service.MedicinesService;
 import com.example.utils.IdGeneratorSnowflake;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -39,6 +35,10 @@ public class CareServiceImpl implements CareService {
     private CareOrderItemMapper careOrderItemMapper;
     @Autowired
     private RegistrationMapper registrationMapper;
+    @Reference //远程调用
+    private MedicinesService medicinesService;
+    @Autowired
+    private OrderChargeItemMapper orderChargeItemMapper;
 
     @Override
     public List<CareHistory> queryCareHistoryByPatientId(String patientId) {
@@ -75,9 +75,10 @@ public class CareServiceImpl implements CareService {
     }
 
     @Override
-    public List<CareOrderItem> queryCareOrderItemsByCoId(String coId) {
+    public List<CareOrderItem> queryCareOrderItemsByCoId(String coId, String status) {
         QueryWrapper<CareOrderItem> qw = new QueryWrapper<>();
         qw.eq(CareOrderItem.COL_CO_ID, coId);
+        qw.eq(StringUtils.isNotBlank(status), CareOrderItem.COL_STATUS, status);
         return this.careOrderItemMapper.selectList(qw);
     }
 
@@ -150,5 +151,45 @@ public class CareServiceImpl implements CareService {
         registration.setRegStatus(Constants.REG_STATUS_3);
         return this.registrationMapper.updateById(registration);
     }
+
+    /**
+     * 发药
+     * 思路
+     * 1，根据详情ID查询处方项目
+     * 2，扣减库存(如果库存够就扣减 返回受影响的行数，如果不够就返回0)
+     * 3，如果返回0 说是库存不够，停止发药
+     * 4，如果返回>0 更新处方详情   支持详情的状态 为3
+     */
+    @Override
+    public String doMedicine(List<String> itemIds) {
+        //根据详情ID查询处方详情
+        QueryWrapper<CareOrderItem> qw = new QueryWrapper<>();
+        qw.in(CareOrderItem.COL_ITEM_ID, itemIds);
+        List<CareOrderItem> careOrderItems = this.careOrderItemMapper.selectList(qw);
+        StringBuffer sb = new StringBuffer();
+        for (CareOrderItem careOrderItem : careOrderItems) {
+            //库存扣减
+            int i = this.medicinesService.deductionMedicinesStorage(Long.valueOf(careOrderItem.getItemRefId()), careOrderItem.getNum().longValue());
+            if (i > 0) {//说明库存够
+                //更新处方详情状态
+                careOrderItem.setStatus(Constants.ORDER_DETAILS_STATUS_3);//已完成
+                this.careOrderItemMapper.updateById(careOrderItem);
+                //更新收费详情状态
+                OrderChargeItem orderChargeItem = new OrderChargeItem();
+                orderChargeItem.setItemId(careOrderItem.getItemId());
+                orderChargeItem.setStatus(Constants.ORDER_DETAILS_STATUS_3);
+                this.orderChargeItemMapper.updateById(orderChargeItem);
+            } else {
+                sb.append("【" + careOrderItem.getItemName() + "】发药失败\n");
+            }
+        }
+        if (StringUtils.isBlank(sb.toString())) {
+            return null;
+        } else {
+            sb.append("原因：库存不足");
+            return sb.toString();
+        }
+    }
+
 }
 

@@ -35,7 +35,7 @@ public interface CareService {
     /**
      * 根据处方ID查询处方详情信息
      */
-    List<CareOrderItem> queryCareOrderItemsByCoId(String coId);
+    List<CareOrderItem> queryCareOrderItemsByCoId(String coId, String status);
 
     /**
      * 根据病例ID查询病历信息
@@ -61,4 +61,9 @@ public interface CareService {
      * 完成就诊
      */
     int visitComplete(String regId);
+
+    /**
+     * 发药
+     */
+    String doMedicine(List<String> itemIds);
 }

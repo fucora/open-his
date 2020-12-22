@@ -23,7 +23,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  * methods = {Method(name = "Medicines",retries = 0)
  * 代表当前类里面的Medicines这个主就去只调一次，不重试
  */
-@Service(methods = {@Method(name = "addMedicines", retries = 0)})
+@Service(methods = {@Method(name = "addMedicines", retries = 0),
+        @Method(name = "deductionMedicinesStorage", retries = 0)})
 public class MedicinesServiceImpl implements MedicinesService {
 
     @Autowired
@@ -88,5 +89,11 @@ public class MedicinesServiceImpl implements MedicinesService {
         medicines.setMedicinesStockNum(medicinesStockNum);
         return this.medicinesMapper.updateById(medicines);
     }
+
+    @Override
+    public int deductionMedicinesStorage(Long medicinesId, long num) {
+        return this.medicinesMapper.deductionMedicinesStorage(medicinesId,num);
+    }
+
 }
 

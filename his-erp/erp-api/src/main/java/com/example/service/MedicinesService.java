@@ -46,5 +46,10 @@ public interface MedicinesService {
      */
     int updateMedicinesStorage(Long medicinesId, Long medicinesStockNum);
 
+    /**
+     * 扣减库存
+     */
+    int deductionMedicinesStorage(Long medicinesId,long num);
+
 }
 
