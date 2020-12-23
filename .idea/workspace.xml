@@ -16,91 +16,64 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第八次提交 看病就诊模块全部功能完成">
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/example/service/OrderBackfeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/example/service/OrderChargeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-api/target/classes/com/example/service/OrderBackfeeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-api/target/classes/com/example/service/OrderChargeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/domain/OrderBackfee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/domain/OrderBackfeeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/domain/OrderCharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/domain/OrderChargeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderBackfeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderBackfeeFormDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderBackfeeItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderChargeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderChargeFromDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/OrderChargeItemDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/domain/OrderBackfee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/domain/OrderBackfeeItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/domain/OrderCharge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/domain/OrderChargeItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderBackfeeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderBackfeeFormDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderBackfeeItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderChargeDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderChargeFromDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/target/classes/com/example/dto/OrderChargeItemDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/java/com/example/mapper/OrderBackfeeItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/java/com/example/mapper/OrderBackfeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/java/com/example/mapper/OrderChargeItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/java/com/example/mapper/OrderChargeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/resources/mapper/OrderBackfeeItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/resources/mapper/OrderBackfeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/resources/mapper/OrderChargeItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/resources/mapper/OrderChargeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/com/example/mapper/OrderBackfeeItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/com/example/mapper/OrderBackfeeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/com/example/mapper/OrderChargeItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/com/example/mapper/OrderChargeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/mapper/OrderBackfeeItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/mapper/OrderBackfeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/mapper/OrderChargeItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/target/classes/mapper/OrderChargeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/example/service/impl/OrderBackfeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/example/service/impl/OrderChargeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-service/target/classes/com/example/service/impl/OrderBackfeeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-service/target/classes/com/example/service/impl/OrderChargeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/lib/alipay-sdk-java-3.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/lib/alipay-trade-sdk-20161215.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/config/pay/AlipayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/config/pay/PayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/HandleMedicineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/OrderBackfeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/OrderChargeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/PayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/resources/zfbinfo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/config/pay/AlipayConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/config/pay/PayService$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/config/pay/PayService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/HandleMedicineController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/OrderBackfeeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/OrderChargeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/PayController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/zfbinfo.properties" afterDir="false" />
+    <list default="true" id="03a325ae-2830-47a7-88c7-b2d217f1b933" name="Default Changelist" comment="第九次提交 收费管理模块全部功能完成">
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/example/service/CheckResultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/domain/CheckResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/CheckResultDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-domain/src/main/java/com/example/dto/CheckResultFormDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/java/com/example/mapper/CheckResultMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-mapper/src/main/resources/mapper/CheckResultMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/example/service/impl/CheckResultServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-api/src/main/java/com/example/service/CheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-api/src/main/java/com/example/service/DrugService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-api/src/main/java/com/example/service/RevenueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-api/src/main/java/com/example/service/WorkloadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/CheckStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/Drug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/DrugStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/Income.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/Refund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/Workload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/domain/WorkloadStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/dto/CheckQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/dto/DrugQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/dto/RevenueQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-domain/src/main/java/com/example/dto/WorkloadQueryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/java/com/example/mapper/CheckMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/java/com/example/mapper/DrugMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/java/com/example/mapper/RevenueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/java/com/example/mapper/WorkloadMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/CheckMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/DrugMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/RevenueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/WorkloadMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-service/src/main/java/com/example/service/impl/CheckServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-service/src/main/java/com/example/service/impl/DrugServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-service/src/main/java/com/example/service/impl/RevenueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-statistics/statistics-service/src/main/java/com/example/service/impl/WorkloadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/config/upload/UploadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/config/upload/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/CheckResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/statistics/RevenueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/statistics/StatCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/statistics/StatDrugController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/statistics/StatWorkloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/system/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/example/service/CareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-doctor/doctor-api/src/main/java/com/example/service/CareService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/his-doctor/doctor-api/target/classes/com/example/service/CareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-doctor/doctor-api/target/classes/com/example/service/CareService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/example/service/impl/CareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-doctor/doctor-service/src/main/java/com/example/service/impl/CareServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/his-doctor/doctor-service/target/classes/com/example/service/impl/CareServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-doctor/doctor-service/target/classes/com/example/service/impl/CareServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-api/src/main/java/com/example/service/MedicinesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-api/src/main/java/com/example/service/MedicinesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-api/target/classes/com/example/service/MedicinesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-api/target/classes/com/example/service/MedicinesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/java/com/example/mapper/MedicinesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/java/com/example/mapper/MedicinesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/resources/mapper/MedicinesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-mapper/src/main/resources/mapper/MedicinesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/com/example/mapper/MedicinesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/com/example/mapper/MedicinesMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/mapper/MedicinesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-mapper/target/classes/mapper/MedicinesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/example/service/impl/MedicinesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-service/src/main/java/com/example/service/impl/MedicinesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-erp/erp-service/target/classes/com/example/service/impl/MedicinesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-erp/erp-service/target/classes/com/example/service/impl/MedicinesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/java/com/example/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/MenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-mapper/target/classes/com/example/mapper/MenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/src/main/java/com/example/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-service/target/classes/com/example/service/impl/MenuServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/his-system/system-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/CareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/CareController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/PatientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/java/com/example/controller/doctor/PatientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/META-INF/system-web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/CareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/CareController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/PatientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/his-system/system-web/target/classes/com/example/controller/doctor/PatientController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +90,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/his-statistics/statistics-mapper/src/main/resources/mapper/DrugMapper.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -162,7 +138,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.ccnode.codegenerator.ab.e" />
@@ -271,7 +247,8 @@
       <workItem from="1608424328848" duration="1865000" />
       <workItem from="1608443133997" duration="6227000" />
       <workItem from="1608510751124" duration="11151000" />
-      <workItem from="1608596983066" duration="12280000" />
+      <workItem from="1608596983066" duration="12342000" />
+      <workItem from="1608682689120" duration="11936000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1608106546476</created>
@@ -378,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608550898450</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="第九次提交 收费管理模块全部功能完成">
+      <created>1608629996806</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608629996806</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,9 +436,14 @@
     <MESSAGE value="第六次提交 完成进销存系统全部功能" />
     <MESSAGE value="第七次提交 看病就诊模块完成医生排班" />
     <MESSAGE value="第八次提交 看病就诊模块全部功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八次提交 看病就诊模块全部功能完成" />
+    <MESSAGE value="第九次提交 收费管理模块全部功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九次提交 收费管理模块全部功能完成" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="132" key="#Inspections" timestamp="1608695681319">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="132" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1608695681319" />
     <state x="208" y="28" key="#Project_Structure" timestamp="1607926366929">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -475,54 +464,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608443601277" />
-    <state width="1398" height="602" key="GridCell.Tab.0.bottom" timestamp="1608629950745">
+    <state width="1398" height="631" key="GridCell.Tab.0.bottom" timestamp="1608701501261">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608629950745" />
+    <state width="1398" height="631" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608701501261" />
     <state width="1398" height="559" key="GridCell.Tab.0.bottom/0.25.1440.812@0.25.1440.812" timestamp="1608201752987" />
-    <state width="1398" height="602" key="GridCell.Tab.0.center" timestamp="1608629950742">
+    <state width="1398" height="631" key="GridCell.Tab.0.center" timestamp="1608701501259">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608629950742" />
+    <state width="1398" height="631" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608701501259" />
     <state width="1398" height="559" key="GridCell.Tab.0.center/0.25.1440.812@0.25.1440.812" timestamp="1608201752986" />
-    <state width="1398" height="602" key="GridCell.Tab.0.left" timestamp="1608629950741">
+    <state width="1398" height="631" key="GridCell.Tab.0.left" timestamp="1608701501257">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608629950741" />
+    <state width="1398" height="631" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608701501257" />
     <state width="1398" height="559" key="GridCell.Tab.0.left/0.25.1440.812@0.25.1440.812" timestamp="1608201752985" />
-    <state width="1398" height="602" key="GridCell.Tab.0.right" timestamp="1608629950744">
+    <state width="1398" height="631" key="GridCell.Tab.0.right" timestamp="1608701501260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608629950744" />
+    <state width="1398" height="631" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608701501260" />
     <state width="1398" height="559" key="GridCell.Tab.0.right/0.25.1440.812@0.25.1440.812" timestamp="1608201752986" />
-    <state width="1398" height="602" key="GridCell.Tab.1.bottom" timestamp="1608629950750">
+    <state width="1398" height="631" key="GridCell.Tab.1.bottom" timestamp="1608701501265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608629950750" />
+    <state width="1398" height="631" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608701501265" />
     <state width="1398" height="559" key="GridCell.Tab.1.bottom/0.25.1440.812@0.25.1440.812" timestamp="1608201752989" />
-    <state width="1398" height="602" key="GridCell.Tab.1.center" timestamp="1608629950748">
+    <state width="1398" height="631" key="GridCell.Tab.1.center" timestamp="1608701501264">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608629950748" />
+    <state width="1398" height="631" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1608701501264" />
     <state width="1398" height="559" key="GridCell.Tab.1.center/0.25.1440.812@0.25.1440.812" timestamp="1608201752988" />
-    <state width="1398" height="602" key="GridCell.Tab.1.left" timestamp="1608629950747">
+    <state width="1398" height="631" key="GridCell.Tab.1.left" timestamp="1608701501263">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608629950747" />
+    <state width="1398" height="631" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1608701501263" />
     <state width="1398" height="559" key="GridCell.Tab.1.left/0.25.1440.812@0.25.1440.812" timestamp="1608201752987" />
-    <state width="1398" height="602" key="GridCell.Tab.1.right" timestamp="1608629950749">
+    <state width="1398" height="631" key="GridCell.Tab.1.right" timestamp="1608701501264">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="602" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608629950749" />
+    <state width="1398" height="631" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1608701501264" />
     <state width="1398" height="559" key="GridCell.Tab.1.right/0.25.1440.812@0.25.1440.812" timestamp="1608201752988" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1608443621342">
+    <state x="229" y="25" width="1068" height="812" key="SettingsEditor" timestamp="1608687363464">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608443621342" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608550914460">
+    <state x="229" y="25" width="1068" height="812" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608687363464" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608630007475">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608550914460" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608630007475" />
     <state x="406" y="242" key="git4idea.merge.GitPullDialog" timestamp="1608172107369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
